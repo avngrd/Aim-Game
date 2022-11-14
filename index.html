@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AimGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="screen">
+        <h1>AIM Game</h1>
+        <a href="#" class="start" id="start">Start</a>
+    </div>
+
+    <div class="screen">
+        <h1>Select Time</h1>
+        <ul class="time-list">
+          <li>
+            <button class="time-btn" data-time="10">
+              10 s
+            </button>
+          </li>
+          <li>
+            <button class="time-btn" data-time="20">
+              20 s
+            </button>
+          </li>
+          <li>
+            <button class="time-btn" data-time="30">
+              30 s
+            </button>
+          </li>
+        </ul>
+      </div>
+
+    <div class="area screen">
+        <h3>Remaining time:  <span id="time"></span></h3>
+        <div class="ball"></div>
+        <div class="board" id="board"></div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
